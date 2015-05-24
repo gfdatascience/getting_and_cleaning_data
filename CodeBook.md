@@ -28,7 +28,7 @@ The scale is defined below and was obtained from "activity_labels.txt":
 6. LAYING.
 
 
-####The labels for mean and std below have been transformed by:
+####The features for mean and std below have been transformed by:
 * replacing "-" with "." and 
 * removing "()".   
 
@@ -36,7 +36,7 @@ The scale is defined below and was obtained from "activity_labels.txt":
 
 1. The merging on training and data sets form files labled with identifiers "X", "y" and "subjects".
 2. Extracting mean and sandard deviation fields from the merged files.
-3. Reformating the label descriptors by replacing "-" with "." and removing "()".
+3. Reformating the feature descriptors by replacing "-" with "." and removing "()".
 
 * tbodyacc.mean.x 
 * tbodyacc.mean.y
@@ -105,5 +105,5 @@ The scale is defined below and was obtained from "activity_labels.txt":
 * fbodybodygyrojerkmag.mean
 * fbodybodygyrojerkmag.std
 
-####Original lables unprocessed
+####Original unprocessed features
 The raw features list is contained in "features.txt".
