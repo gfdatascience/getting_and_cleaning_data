@@ -29,11 +29,13 @@ The scale is defined below and was obtained from "activity_labels.txt":
 
 
 ####The labels for mean and std below have been transformed by:
--1) replacing "-" with "." and 2) removing "()".   
+* replacing "-" with "." and 
+* removing "()".   
 
-### The fields below were obtained by: 
+####The fields below were obtained by: 
+
 1. The merging on training and data sets form files labled with identifiers "X", "y" and "subjects".
-2. Extracting mean and sandard deviation fields from the merged files/
+2. Extracting mean and sandard deviation fields from the merged files.
 3. Reformating the label descriptors by replacing "-" with "." and removing "()".
 
 * tbodyacc.mean.x 
@@ -105,5 +107,3 @@ The scale is defined below and was obtained from "activity_labels.txt":
 
 ####Original lables unprocessed
 The raw features list is contained in "features.txt".
-
-
