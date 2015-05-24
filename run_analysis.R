@@ -62,8 +62,7 @@ descriptive_colnames <- tolower(descriptive_colnames)
 colnames(data_mean_std) <- descriptive_colnames
 
 # create a file for processed dataset
-write.table(data_mean_std, "dataset.txt", row.name=FALSE)
-
+# write.table(data_mean_std, "dataset.txt", row.name=FALSE)
 
 ## 5. From the data set in step 4, create a second, independent tidy data set 
 ## with the average of each variable for each activity and each subject.
