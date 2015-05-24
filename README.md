@@ -26,14 +26,14 @@ You should create one R script called run_analysis.R that does the following:
 4. Appropriately labels the data set with descriptive variable names;
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## List of files to be created in order to successfuly complete the project
+## List of files to be created for the project
 
-1. READ.md; 
-2. CodeBook.md;
-3. run_analysis.R;
-4. tidydata.txt;
+* READ.md; 
+* CodeBook.md;
+* run_analysis.R;
+* tidydata.txt;
 
-N.B. dataset.txt  (was created for comparison purposes but is not required).
+N.B. dataset.txt  (was created for comparison purposes but is not required and is not a part of the git repo).
 
 
 ## System notes and specifications
@@ -47,14 +47,14 @@ Platform: x86_64-apple-darwin13.4.0 (64-bit)
 
 ## A stepwise description of the project
 
--Step 1: Download the Data getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip from  accessing the data link above.
+* Step 1: Download the Data getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip from  accessing the data link above.
 
--Step 2: The zip file is generated in the R users working direcoty. A directory by the name of  
+* Step 2: The zip file is generated in the R users working direcoty. A directory by the name of  
 "UCI HAR dataset" is created. 
 
--Step 3: Change the R working directory to UCI HAR dataset.
+* Step 3: Change the R working directory to UCI HAR dataset.
 
--Step 4: Run the script run_analysis.R in RStudio until the command prompt is returned and the script is terminated.
+* Step 4: Run the script run_analysis.R in RStudio until the command prompt is returned and the script is terminated.
 
 The following steps take place within the script:
 * Merges the training and the test sets to create one data set;
