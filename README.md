@@ -57,12 +57,12 @@ Platform: x86_64-apple-darwin13.4.0 (64-bit)
 -Step 4: Run the script run_analysis.R in RStudio until the command prompt is returned and the script is terminated.
 
 The following steps take place within the script:
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-3. Uses descriptive activity names to name the activities in the data set.
-4. Appropriately labels the data set with descriptive variable names.
+1. Merges the training and the test sets to create one data set;
+2. Extracts only the measurements on the mean and standard deviation for each measurement; 
+3. Uses descriptive activity names to name the activities in the data set;
+4. Appropriately labels the data set with descriptive variable names;
 
 
-Step 5: Observe files created by script. The required project output is tidydata.txt.
+Step 5: The required project output is tidydata.txt.
 
--5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
