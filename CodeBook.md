@@ -21,26 +21,26 @@ This label represent the 30 individual participants given a unique id number fro
 This label "activity" describes the activity that was being performed at any given time by one of the 30 subjects.
 The scale is defined below and was obtained from "activity_labels.txt":
 
--1 WALKING.
--2 WALKING_UPSTAIRS.
--3 WALKING_DOWNSTAIRS.
--4 SITTING.
--5 STANDING.
--6 LAYING.
+1. WALKING.
+2. WALKING_UPSTAIRS.
+3. WALKING_DOWNSTAIRS.
+4. SITTING.
+5. STANDING.
+6. LAYING.
 
 
 ### The labels for mean and std below have been transformed by:
 -1) replacing "-" with "." and 2) removing "()".   
 
 ### The fields below were obtained by: 
--1) the merging on training and data sets form files labled with identifiers "X", "y" and "subjects",
--2) Extracting mean and sandard deviation fields from the merged files,
--3) Reformating the label descriptors by replacing "-" with "." and removing "()".
+1. The merging on training and data sets form files labled with identifiers "X", "y" and "subjects",
+2. Extracting mean and sandard deviation fields from the merged files,
+3. Reformating the label descriptors by replacing "-" with "." and removing "()".
 
--tbodyacc.mean.x
--tbodyacc.mean.y
--tbodyacc.mean.z
--tbodyacc.std.x
+* tbodyacc.mean.x 
+* tbodyacc.mean.y
+- tbodyacc.mean.z
+- tbodyacc.std.x
 -tbodyacc.std.y
 -tbodyacc.std.z
 -tgravityacc.mean.x

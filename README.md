@@ -20,19 +20,19 @@ Data Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20
 ## Project functionality objectives for R script
 
 You should create one R script called run_analysis.R that does the following: 
--1) Merges the training and the test sets to create one data set;
--2) Extracts only the measurements on the mean and standard deviation for each measurement; 
--3) Uses descriptive activity names to name the activities in the data set;
--4) Appropriately labels the data set with descriptive variable names;
--5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set;
+2. Extracts only the measurements on the mean and standard deviation for each measurement; 
+3. Uses descriptive activity names to name the activities in the data set;
+4. Appropriately labels the data set with descriptive variable names;
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## List of files to be created in order to successfuly complete the project
 
--READ.md; 
--CodeBook.md;
--run_analysis.R;
--tidydata.txt;
--dataset.txt  (for comparions but not required).
+1. READ.md; 
+2. CodeBook.md;
+3. run_analysis.R;
+4. tidydata.txt;
+5. dataset.txt  (for comparions but not required).
 
 
 ## System notes and specifications
@@ -56,10 +56,10 @@ Platform: x86_64-apple-darwin13.4.0 (64-bit)
 -Step 4: Run the script run_analysis.R in RStudio until the command prompt is returned and the script is terminated.
 
 The following steps take place within the script:
--1) Merges the training and the test sets to create one data set.
--2) Extracts only the measurements on the mean and standard deviation for each measurement. 
--3) Uses descriptive activity names to name the activities in the data set
--4) Appropriately labels the data set with descriptive variable names.
+1: Merges the training and the test sets to create one data set.
+2: Extracts only the measurements on the mean and standard deviation for each measurement. 
+3: Uses descriptive activity names to name the activities in the data set.
+4: Appropriately labels the data set with descriptive variable names.
 
 
 Step 5: Observe files created by script. Although tidtdata.txt is the project output, dataset.txt was also 
