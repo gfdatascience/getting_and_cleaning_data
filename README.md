@@ -32,7 +32,8 @@ You should create one R script called run_analysis.R that does the following:
 2. CodeBook.md;
 3. run_analysis.R;
 4. tidydata.txt;
-5. dataset.txt  (for comparions but not required).
+
+N.B. dataset.txt  (was created for comparison purposes but is not required).
 
 
 ## System notes and specifications
