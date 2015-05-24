@@ -1,22 +1,22 @@
 # The CodeBook 
 
 
-### The source data was all derived from the link:
+* The source data was all derived from the link:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-###Once unzipped the file generated a directory UCI HAR Dataset which contained all source directories and files 
+* Once unzipped the file generated a directory UCI HAR Dataset which contained all source directories and files 
 
-###The source training, subjects and test datasets were merged into "mergedata" in the script.
+* The source training, subjects and test datasets were merged into "mergedata" in the script.
 
-###As outlined in README.md the merged data set was processed in a stepwise manner and the "tidydata.txt" was produced:
+* As outlined in README.md the merged data set was processed in a stepwise manner and the "tidydata.txt" was produced:
 
 ###Variables in tidydata.txt
 
-###subject
+####subject
 This label represent the 30 individual participants given a unique id number from 1 to 30.
 
 
-###activity
+####activity
 This label "activity" describes the activity that was being performed at any given time by one of the 30 subjects.
 The scale is defined below and was obtained from "activity_labels.txt":
 
@@ -28,7 +28,7 @@ The scale is defined below and was obtained from "activity_labels.txt":
 6. LAYING.
 
 
-### The labels for mean and std below have been transformed by:
+####The labels for mean and std below have been transformed by:
 -1) replacing "-" with "." and 2) removing "()".   
 
 ### The fields below were obtained by: 
@@ -103,7 +103,7 @@ The scale is defined below and was obtained from "activity_labels.txt":
 * fbodybodygyrojerkmag.mean
 * fbodybodygyrojerkmag.std
 
-###Original lables unprocessed
+####Original lables unprocessed
 The raw features list is contained in "features.txt".
 
 
