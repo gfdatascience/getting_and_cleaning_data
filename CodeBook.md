@@ -21,12 +21,12 @@ This label represent the 30 individual participants given a unique id number fro
 This label "activity" describes the activity that was being performed at any given time by one of the 30 subjects.
 The scale is defined below and was obtained from "activity_labels.txt":
 
--1 WALKING
--2 WALKING_UPSTAIRS
--3 WALKING_DOWNSTAIRS
--4 SITTING
--5 STANDING
--6 LAYING
+-1 WALKING.
+-2 WALKING_UPSTAIRS.
+-3 WALKING_DOWNSTAIRS.
+-4 SITTING.
+-5 STANDING.
+-6 LAYING.
 
 
 ### The labels for mean and std below have been transformed by:
